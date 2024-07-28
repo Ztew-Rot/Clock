@@ -42,7 +42,7 @@ void	ft_time(void)
 		s = 0;
 			while (s <= 60)
 			{
-				sleep (0.2);
+				sleep (1);
 				ft_write(h, m, s);
 				s++;
 			}
